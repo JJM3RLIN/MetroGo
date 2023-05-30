@@ -2,8 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 const Navegacion = () => {
   return (
-    <div className=" bg-gradient-to-b from-slate-100  to-transparent">
-      <nav className="mx-14 grid grid-cols-7  px-11 py-2 items-center ">
+    <div className="absolute w-full top-0 bg-gradient-to-b from-white to-transparent h-52 z-50">
+      <nav className="relative mx-14 grid grid-cols-7 px-11 py-1 items-center">
         <div className="self-center">
         <Link href={"/"}>
         <div className="flex">
@@ -20,12 +20,12 @@ const Navegacion = () => {
        
             <Link href="/mapa">
             <div className="flex flex-col items-center text-neutral-950 hover:text-amber-500">
-                <Image
+                <Image 
                   src="/imgs/iconoMapa.svg"
                   alt="icono-mapa"
                   width={60}
                   height={15}
-                
+                  className="stroke-neutral-950 hover:stroke-amber-500"
                 />
                 <p>Mapa</p>
             </div>
@@ -60,10 +60,10 @@ const Navegacion = () => {
             <Link href="/turismo">
             <div className="flex flex-col items-center text-neutral-950 hover:text-amber-500">
                 <Image
-                  src="/imgs/iconoTurismo.webp"
+                  src="/imgs/iconoTurismoBlack2.svg"
                   alt="icono-turismo"
-                  className="dark:invert"
-                  width={100}
+                  className=""
+                  width={70}
                   height={15}
                 
                 />

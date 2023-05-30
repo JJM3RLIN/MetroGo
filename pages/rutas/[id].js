@@ -16,7 +16,7 @@ const ruta = () => {
     const { nombre:nom2} =  estaciones.filter(estacion=>estacion.nombre.toUpperCase() == lineas[1].toUpperCase())[0]
    
     var mapOptions = {
-      zoom: 8,
+      zoom: 20,
       //center: myLatlng,
       mapTypeId: 'roadmap'
     };
@@ -51,10 +51,14 @@ const ruta = () => {
   return (
     <Layout>
 
-      <section className="grid grid-cols-3">
-      {instru.map((ins, index)=><Instruccion key={index} ins={ins}/>)}
+      <section className="flex items-center mt-32 justify-center">
+        <div className="grid grid-cols-1 mb-1">
+          <h1 className="font-bold text-xl mb-3 flex items-center justify-center">Indicaciones</h1>
+          {instru.map((ins, index)=><Instruccion key={index} ins={ins}/>)}
+          <h1 className="font-bold text-xl mb-3 flex items-center justify-center">Ruta a seguir</h1>
+        </div>
       </section>
-      <div className="h-96" id="map"></div>
+      <div className="h-96 mt-5 mb-20 ml-60 mr-60 shadow-lg" id="map"></div>
     </Layout>
   )
 }
