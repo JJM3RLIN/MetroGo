@@ -7,7 +7,7 @@ export default function Home() {
     <Layout titulo={"Inicio"}>
      <main className='bg-slate-50'>
      <section className="h-full bg-center bg-no-repeat bg-cover flex items-center justify-center">
-            <div className='flex flex-col items-center justify-center bg-black w-full bg-opacity-20 absolute h-full'>
+            <div className='flex flex-col items-center justify-center bg-black w-full top-0 bg-opacity-5 absolute h-full'>
               <h1 className='text-white font-bold text-6xl my-4 sombra_texto uppercase separacion_letras'>Metro Go!</h1>
               <p className='text-white text-3xl sombra_texto'>La aplicación que todo usuario del metro necesita</p>
             </div>
