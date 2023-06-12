@@ -60,14 +60,30 @@ const buscarRuta = () => {
       <main className="grid grid-cols-2 place-content-center">
         
         <div className="bg-[url('/imgs/fondoRutas.png')] bg-no-repeat h-screen bg-cover bg-right"></div>
+<<<<<<< HEAD
         <section className="mt-6 text-center flex flex-col items-center">
           <h1 className="font-bold text-4xl mb-10 mt-52">Rutas</h1>
          <div id="inicio" className="cursor-pointer bg-slate-50 px-6 py-2 outline-none border rounded-xl text-2xl border-amber-300 my-9"  onClick={desplegarLista}>
           <div id="lista_inicio" className="max-h-48 overflow-y-scroll">
                <p className="default">Selecciona la línea en donde se encuentra la estación</p>
+=======
+        <section className="mt-32 text-center">
+          <h1 className="font-bold text-4xl mb-10">Rutas</h1>
+          <form onSubmit={handleSubmit}>
+
+          <div className="flex flex-col items-center justify-center mb-8">
+            <label htmlFor="inicio" className="text-2xl mb-6">¿En qué estación te encuentras?</label>
+            <input 
+            type="text"
+            id="inicio" 
+            onChange={(e)=>setRuta({...ruta, inicio: e.target.value})}
+            className="bg-gray-200 px-2 py-4 w-3/4 outline-none border rounded-xl text-xl focus:border-amber-500"
+            placeholder="Ejemplo: Politécnico"/>
+>>>>>>> 702e906712a463b05f6ba1c487b0db47d766aefc
           </div>
          </div>
 
+<<<<<<< HEAD
           <div id="final" className="cursor-pointer bg-slate-50 px-6 py-2 outline-none border rounded-xl text-2xl border-amber-300 my-9"  onClick={desplegarLista}>
           <div id="lista_final" className="max-h-48 overflow-y-scroll">
                <p className="default">Selecciona la línea en donde se encuentra la estación</p>
@@ -75,6 +91,18 @@ const buscarRuta = () => {
          </div>
          <button 
             className="bg-amber-500  text-xl text-white font-bold px-14 py-3 rounded-2xl mt-8"
+=======
+          <div className="flex flex-col items-center justify-center mb-8">
+            <label htmlFor="" className="text-2xl mb-6">¿A qué estación te diriges?</label>
+            <input 
+            type="text" 
+            onChange={(e)=>setRuta({...ruta, destino: e.target.value})}
+            className="bg-gray-200 px-2 py-4 w-3/4 outline-none border rounded-xl text-xl focus:border-amber-500"
+            placeholder="Ejemplo: Deportivo Oceania"/>
+          </div>
+            <button 
+            className="bg-amber-500 text-xl shadow-2xl text-white font-bold px-14 py-3 rounded-2xl mt-8"
+>>>>>>> 702e906712a463b05f6ba1c487b0db47d766aefc
             onClick={()=>Router.push(`/rutas/${ruta.inicio}-${ruta.destino}`)}
             type="button"
             >Generar ruta</button>
