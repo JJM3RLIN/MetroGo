@@ -3,11 +3,32 @@
 @tailwind utilities;
 body{
 font-family: 'Barlow', sans-serif !important;
-overflow-y: hidden;
+
 }
 .sombra_texto{
     text-shadow: 1px 2px 8px black;
 }
 .separacion_letras{
     letter-spacing: .2rem;
+}
+/*Lista de las estaciones y lineas*/
+#lista_inicio p, #lista_final p{
+    margin-bottom: 10px;
+}
+#lista_inicio > p:hover:not(.default), #lista_final> p:hover:not(.default){
+   background-color: rgb(103, 107, 107);
+}
+.contenedor-estacion{
+    position: absolute;
+    top: 270px;
+    right: 680px;
+    width: fit-content;
+    max-height: 30rem;
+    overflow-y: scroll;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding:  10px;
+}
+.contenedor-estacion p:hover{
+  background-color: #bbbaba;
 }

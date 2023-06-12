@@ -1,3 +1,11 @@
+export const  nombreLineas = ["Línea A", "Línea B", "Línea 9", "Línea 8",
+                               "Línea 7",
+                               "Línea 6",
+                               "Línea 5",
+                               "Línea 4",
+                               "Línea 3",
+                               "Línea 2",
+                               "Línea 1"]
 export const lineas = [
     {"nombre":"Línea B","estaciones":[
         {"nombre":"Buenavista","latitud":19.446501,"longitud":-99.153198,"img":""},
@@ -23,7 +31,7 @@ export const lineas = [
         {"nombre":"Ciudad Azteca","latitud":19.534599,"longitud":-99.027496,"img":""}]},
 
 {"nombre":"Línea A","estaciones":[
-    {"nombre":"Pantitlan","latitud":19.4154,"longitud":-99.072197,"img":""},
+    {"nombre":"Pantitlán","latitud":19.4154,"longitud":-99.072197,"img":""},
     {"nombre":"Agricola Oriental","latitud":19.4048,"longitud":-99.069901,"img":""},
     {"nombre":"Canal de San Juan","latitud":19.3985,"longitud":-99.059303,"img":""},
     {"nombre":"Tepalcates","latitud":19.3913,"longitud":-99.046402,"img":""},
@@ -34,7 +42,7 @@ export const lineas = [
     {"nombre":"Los Reyes","latitud":19.358999,"longitud":-98.976898,"img":""},
     {"nombre":"La Paz","latitud":19.3507,"longitud":-98.960999,"img":""} ]},
 
-{"nombre":"Linea 9","estaciones":[
+{"nombre":"Línea 9","estaciones":[
     {"nombre":"Tacubaya","latitud":19.4032,"longitud":-99.187103,"img":""},
     {"nombre":"Patriotismo","latitud":19.4062,"longitud":-99.178902,"img":""},
     {"nombre":"Chilpancingo","latitud":19.4062,"longitud":-99.168404,"img":""},
@@ -45,7 +53,7 @@ export const lineas = [
     {"nombre":"Mixiuhca","latitud":19.4086,"longitud":-99.1129,"img":""},
     {"nombre":"Velódromo","latitud":19.4086,"longitud":-99.102997,"img":""},
     {"nombre":"Ciudad Deportiva","latitud":19.408501,"longitud":-99.091202,"img":""},
-    {"nombre":"Puebla","latitud":19.4072,"longitud":-99.081902,"img":""},
+    {"nombre":"Puebla","latitud":19.407508,"longitud":-99.0849986,"img":""},
     {"nombre":"Pantitlán","latitud":19.4154,"longitud":-99.072197,"img":""}]},
 {"nombre":"Línea 8","estaciones":[
     {"nombre":"Garibaldi","latitud":19.444401,"longitud":-99.139801,"img":""},
@@ -214,7 +222,7 @@ export const estaciones = [
     {"nombre":"Boulevard Puerto Aéreo","latitud":19.419701,"longitud":-99.096001,"img":""},
     {"nombre":"Gomez Farias","latitud":19.4158,"longitud":-99.090302,"img":""},
     {"nombre":"Zaragoza","latitud":19.4123,"longitud":-99.082397,"img":""},
-    {"nombre":"Pantitlan","latitud":19.4154,"longitud":-99.072197,"img":""},
+    {"nombre":"Pantitlán","latitud":19.4154,"longitud":-99.072197,"img":""},
     {"nombre":"Cuatro Caminos","latitud":19.4596,"longitud":-99.215897,"img":""},
     {"nombre":"Panteones","latitud":19.458799,"longitud":-99.203201,"img":""},
     {"nombre":"Tacuba","latitud":19.459499,"longitud":-99.188698,"img":""},
@@ -347,3 +355,800 @@ export const estaciones = [
     {"nombre":"Ciudad Azteca","latitud":19.534599,"longitud":-99.027496,"img":""} 
 
 ]
+
+export const elevadores = {
+"1":[
+{"estacion":"INSURGENTES",
+"direccion":"ANDÉN DIRECCIÓN PANTITLAN",
+"lugar":"DESPUES DE TORNIQUETES BAJA A ANDEN"
+},
+{"estacion":"SEVILLA",
+"direccion":"ANDÉN DIRECCIÓN OBSERVATORIO",
+"lugar":"EXTERIOR ANTES DE TORNIQUETES"
+},
+{"estacion":"SEVILLA",
+"direccion":"ANDÉN DIRECCIÓN PANTITLÁN",
+"lugar":"EXTERIOR ANTES DE TORNIQUETES"
+},
+{"estacion":"CUAUHTEMOC",
+"direccion":"ANDÉN DIRECCIÓN PANTITLÁN",
+"lugar":"ANTES DE TORNIQUETES (DENTRO ESTACIÓN)"
+},
+{"estacion":"CUAUHTEMOC",
+"direccion":"ANDÉN DIRECCIÓN OBSERVATORIO",
+"lugar":"ANTES DE TORNIQUETES (DENTRO ESTACIÓN)"
+},
+{"estacion":"SALTO DEL AGUA",
+"direccion":"ANDÉN DIRECCIÓN PANTITLÁN",
+"lugar":"DESPUES DE TORNIQUETES BAJA A ANDEN"
+},
+{"estacion":"SALTO DEL AGUA",
+"direccion":"ANDÉN DIRECCIÓN OBSERVATORIO",
+"lugar":"DESPUES DE TORNIQUETES BAJA A ANDEN"
+},
+{"estacion":"MERCED",
+"direccion":"ANDÉN DIRECCIÓN OBSERVATORIO",
+"lugar":"DESPUES DE TORNIQUETES BAJA A ANDEN"
+},
+{"estacion":"MERCED",
+"direccion":"ANDÉN DIRECCIÓN PANTITLÁN",
+"lugar":"DESPUES DE TORNIQUETES BAJA A ANDEN"
+},
+{"estacion":"BALBUENA",
+"direccion":"ANDÉN DIRECCIÓN PANTITLÁN",
+"lugar":"ANTES DE TORNIQUETES (DENTRO ESTACIÓN)"
+},
+{"estacion":"BALBUENA",
+"direccion":"ANDÉN DIRECCIÓN OBSERVATORIO",
+"lugar":"ANTES DE TORNIQUETES (DENTRO ESTACIÓN)"
+},
+{"estacion":"BOULEVARD PUERTO AEREO",
+"direccion":"ANDÉN DIRECCIÓN OBSERVATORIO",
+"lugar":"EXTERIOR ANTES DE TORNIQUETES"
+},
+{"estacion":"BOULEVARD PUERTO AEREO",
+"direccion":"ANDÉN DIRECCIÓN PANTITLÁN",
+"lugar":"EXTERIOR ANTES DE TORNIQUETES"
+},
+{"estacion":"MOCTEZUMA",
+"direccion":"ANDÉN DIRECCIÓN OBSERVATORIO",
+"lugar":"EXTERIOR ANTES DE TORNIQUETES"
+},
+{"estacion":"MOCTEZUMA",
+"direccion":"ANDÉN DIRECCIÓN PANTITLÁN",
+"lugar":"EXTERIOR ANTES DE TORNIQUETES"
+},
+{"estacion":"PANTITLAN",
+"direccion":"PANTITLAN",
+"lugar":"ANDEN CENTRAL"
+},
+{"estacion":"PANTITLAN",
+"direccion":"PANTITLAN",
+"lugar":"ANDEN CENTRAL, PASILLO DE CORRESPONDENCIA L-1, L-5, L-9"
+},
+{"estacion":"ZARAGOZA",
+"direccion":"OBSERVATORIO",
+"lugar": "SIN SALIDA A LA CALLE, ANTES DE TORNIQUETES"
+},
+{"estacion":"PINO SUAREZ",
+"direccion":"PANTITLAN",
+"lugar":"ANDEN"
+},
+{"estacion":"PINO SUAREZ",
+"direccion":"OBSERVATORIO",
+"lugar":"PASAJE PINO SUAREZ"
+},
+{"estacion":"SALTO DEL AGUA",
+"direccion":"OBSERVATORIO",
+"lugar":"DESPUES DE TORNIQUETES"
+},
+{"estacion":"SALTO DEL AGUA",
+"direccion":"PANTITLAN",
+"lugar":"DESPUES DE TORNIQUETES"
+},
+{"estacion":"BALDERAS",
+"direccion":"OBSERVATORIO",
+"lugar":"DESPUES DE TORNIQUETES"
+},
+{"estacion":"OBSERVATORIO",
+"direccion":"PANTITLAN",
+"lugar":"ANDEN"
+},
+{"estacion":"OBSERVATORIO",
+"direccion":"OBSERVATORIO",
+"lugar":"ANDEN"
+}],
+"2":[
+    {
+      "estacion": "PINO SUÁREZ",
+      "direccion": "ANDÉN DIRECCIÓN CUATRO CAMINOS",
+      "lugar": "DENTRO DE ESTACIÓN, BAJA A ANDEN"
+    },
+    {
+      "estacion": "ZÓCALO",
+      "direccion": "ANDÉN DIRECCIÓN CUATRO CAMINOS",
+      "lugar": "DENTRO DE ESTACIÓN, BAJAN A ANDEN"
+    },
+    {
+      "estacion": "ZÓCALO",
+      "direccion": "ANDÉN DIRECCIÓN TASQUEÑA",
+      "lugar": "DENTRO DE ESTACIÓN, BAJAN A ANDEN"
+    },
+    {
+      "estacion": "XOLA",
+      "direccion": "ANDÉN CENTRAL",
+      "lugar": "ANTES DE TORNIQUETES Y LIBRA TORNIQUETES."
+    },
+    {
+      "estacion": "XOLA",
+      "direccion": "SALIDA PTE. LADO VÍA DIRECCIÓN TASQUEÑA",
+      "lugar": "SUBE A ESTACIÓN"
+    },
+    {
+      "estacion": "XOLA",
+      "direccion": "SALIDA OTE. LADO VÍA DIRECCIÓN CUATRO CAMINO",
+      "lugar": "SUBE A ESTACIÓN"
+    },
+    {
+      "estacion": "TASQUEÑA",
+      "direccion": "TASQUEÑA",
+      "lugar": "PUENTE PEATONAL CENTRAL DE AUTOBUS"
+    },
+    {
+      "estacion": "TASQUEÑA",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "DESPUES DE TORNIQUETES CENTRAL DE LA ESTACION"
+    },
+    {
+      "estacion": "TASQUEÑA",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "PUENTE PARADERO SUR"
+    },
+    {
+      "estacion": "ERMITA",
+      "direccion": "TASQUEÑA",
+      "lugar": "SALIDA ESTACION"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "TASQUEÑA",
+      "lugar": "ANTES DE LOS TONIQUETES"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "ANDEN, SALIDA A LA CORRESPONDENCIA L-2, L-8 Y L-9"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "CERCA DE PERMANENCIA CHABACANO",
+      "lugar": "PASILLO DE CORRESPONDENCIA"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "ANDEN"
+    },
+    {
+      "estacion": "PINO SUAREZ",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "CORRESPONDENCIA L-1 L-2"
+    },
+    {
+      "estacion": "ZOCALO",
+      "direccion": "NIVEL CALLE",
+      "lugar": "SALIDA AL LIVERPOOL"
+    },
+    {
+      "estacion": "REVOLUCION",
+      "direccion": "TASQUEÑA",
+      "lugar": "SALIDA DEL ANDEN"
+    },
+    {
+      "estacion": "REVOLUCION",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "SALIDA DEL ANDEN"
+    },
+    {
+      "estacion": "CUATRO CAMINOS",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "PASILLO SOBRE ANDEN CALLE"
+    },
+    {
+      "estacion": "CUATRO CAMINOS",
+      "direccion": "CUATRO CAMINOS",
+      "lugar": "PASILLO SALE A LA CALLE"
+    }
+  ],
+"3":[
+    {
+      "estacion": "BALDERAS",
+      "direccion": "ANDÉN DIRECCIÓN UNIVERSIDAD",
+      "lugar": "ANDÉN SUBE AL TRANSBORDE"
+    },
+    {
+      "estacion": "UNIVERSIDAD",
+      "direccion": "ANDÉN DE LLEGADA, VÍA MÁS CERCANA AL CAMPUS DE LA UNIVERSIDAD",
+      "lugar": "MEZZANINE BAJAN A ANDEN"
+    },
+    {
+      "estacion": "UNIVERSIDAD",
+      "direccion": "ANDÉN CENTRAL (ANDÉN LLEGADA)",
+      "lugar": "MEZZANINE BAJAN A ANDEN"
+    },
+    {
+      "estacion": "UNIVERSIDAD",
+      "direccion": "ANDÉN DE SALIDA, VÍA MÁS ALEJADA DEL CAMPUS DE LA UNIVERSIDAD",
+      "lugar": "EXTERIOR BAJAN AL ANDEN"
+    },
+    {
+      "estacion": "COPILCO",
+      "direccion": "COPILCO ANDEN DIRECCIÓN INDIOS VERDES",
+      "lugar": "PASA TORNIQUETE"
+    },
+    {
+      "estacion": "COPILCO",
+      "direccion": "COPILCO ANDEN DIRECCIÓN UNIVERSIDAD",
+      "lugar": "NO CRUZA TORNIQUETE, BAJA ANDEN 4 DIRECTO"
+    },
+    {
+      "estacion": "ZAPATA",
+      "direccion": "EXTERIOR, LADO ANDÉN DIRECCIÓN INDIOS VERDES",
+      "lugar": "NO CRUZA TORNIQUETE, BAJA ANDEN 4 DIRECTO"
+    },
+    {
+      "estacion": "ZAPATA",
+      "direccion": "EXTERIOR, LADO ANDÉN DIRECCIÓN UNIVERSIDAD",
+      "lugar": "NO CRUZA TORNIQUETE, BAJA ANDEN TRANSBORDE"
+    },
+    {
+      "estacion": "UNIVERSIDAD",
+      "direccion": "INDIOS VERDES",
+      "lugar": "DESPUÉS DE TORNIQUETES, PUENTE PEATONAL"
+    },
+    {
+      "estacion": "CENTRO MÉDICO",
+      "direccion": "INDIOS VERDES",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "ETIOPIA",
+      "direccion": "INDIOS VERDES",
+      "lugar": "ANDÉN CON SALIDA A LA ESTACIÓN ANTES DE TORNIQUETES"
+    },
+    {
+      "estacion": "ETIOPIA",
+      "direccion": "UNIVERSIDAD",
+      "lugar": "ANDÉN CON SALIDA A LA ESTACIÓN ANTES DE TORNIQUETES"
+    },
+    {
+      "estacion": "HOSPITAL GENERAL",
+      "direccion": "UNIVERSIDAD",
+      "lugar": "DESPUÉS DE TORNIQUETES Y DAN A LA CALLE"
+    },
+    {
+      "estacion": "HOSPITAL GENERAL",
+      "direccion": "INDIOS VERDES",
+      "lugar": "DESPUÉS DE TORNIQUETES Y DAN A LA CALLE"
+    },
+    {
+      "estacion": "BALDERAS",
+      "direccion": "INDIOS VERDES",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "BALDERAS",
+      "direccion": "UNIVERSIDAD",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "JUÁREZ",
+      "direccion": "INDIOS VERDES",
+      "lugar": "DESPUÉS DE TORNIQUETES"
+    },
+    {
+      "estacion": "JUÁREZ",
+      "direccion": "UNIVERSIDAD",
+      "lugar": "DESPUÉS DE TORNIQUETES"
+    },
+    {
+      "estacion": "LA RAZA",
+      "direccion": "INDIOS VERDES",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "LA RAZA",
+      "direccion": "UNIVERSIDAD",
+      "lugar": "ANDÉN"
+    }
+  ],
+  
+"5":[
+    {
+      "estacion": "LA RAZA",
+      "direccion": "ANDÉN DIRECCIÓN POLITÉCNICO",
+      "lugar": "DENTRO DE ESTACIÓN, LLEGAN A ANDEN"
+    },
+    {
+      "estacion": "LA RAZA",
+      "direccion": "ANDÉN DIRECCIÓN PANTITLÁN",
+      "lugar": "DENTRO DE ESTACIÓN, LLEGAN A ANDEN"
+    },
+    {
+      "estacion": "AUTOBUSES DEL NORTE",
+      "direccion": "ANDÉN DIRECCIÓN POLITÉCNICO",
+      "lugar": "CENTRAL DE AUTOBUSES A ANTES DE TORNIQUETES"
+    },
+    {
+      "estacion": "AUTOBUSES DEL NORTE",
+      "direccion": "ANDÉN DIRECCIÓN PANTITLÁN",
+      "lugar": "DESPUÉS DE TORNIQUETES, BAJA A ANDEN"
+    },
+    {
+      "estacion": "AUTOBUSES DEL NORTE",
+      "direccion": "EXTERIOR",
+      "lugar": "DESPUÉS DE TORNIQUETES, BAJA A ANDEN"
+    },
+    {
+      "estacion": "POLITÉCNICO",
+      "direccion": "EXTERIOR",
+      "lugar": "BAJA A ESTACIÓN"
+    },
+    {
+      "estacion": "POLITÉCNICO",
+      "direccion": "ANDÉN LLEGADA",
+      "lugar": "SUBE A ESTACIÓN"
+    },
+    {
+      "estacion": "POLITÉCNICO",
+      "direccion": "ANDÉN SALIDA",
+      "lugar": "SUBE A ANDEN"
+    }
+  ],
+"6":[
+    {
+      "estacion": "EL ROSARIO",
+      "direccion": "MARTÍN CARRERA",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "EL ROSARIO",
+      "direccion": "ROSARIO",
+      "lugar": "ANDÉN"
+    }
+  ],
+  
+"7":[
+    {
+      "estacion": "EL ROSARIO",
+      "direccion": "BARRANCA DEL MUERTO",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "EL ROSARIO",
+      "direccion": "ROSARIO",
+      "lugar": "ANDÉN"
+    }
+  ],
+  
+"8":[
+    {
+      "estacion": "CONSTITUCIÓN DE 1917",
+      "direccion": "ANDÉN DE LLEGADA TERMINAL CONSTITUCIÓN",
+      "lugar": "MEZZANINE BAJAN A ANDÉN"
+    },
+    {
+      "estacion": "CONSTITUCIÓN DE 1917",
+      "direccion": "ANDÉN DE SALIDA TERMINAL CONSTITUCIÓN",
+      "lugar": "MEZZANINE BAJAN A ANDÉN"
+    },
+    {
+      "estacion": "CONSTITUCIÓN DE 1917",
+      "direccion": "EXTERIOR, SALIDA NOR-OTE",
+      "lugar": "EXTERIOR LADO GARIBALDI"
+    },
+    {
+      "estacion": "ATLALILCO",
+      "direccion": "ANDÉN DIRECCIÓN GARIBALDI",
+      "lugar": "EXTERIOR BAJAN AL ANDÉN"
+    },
+    {
+      "estacion": "ATLALILCO",
+      "direccion": "ANDÉN DIRECCIÓN CONSTITUCIÓN",
+      "lugar": "EXTERIOR BAJAN AL ANDÉN"
+    },
+    {
+      "estacion": "IZTACALCO",
+      "direccion": "ANDÉN CENTRAL",
+      "lugar": "LIBRA TORNIQUETE, BAJA A ANDÉN"
+    },
+    {
+      "estacion": "IZTACALCO",
+      "direccion": "EXTERIOR, SALIDA PTE. LADO ANDÉN DIRECCIÓN CONSTITUCIÓN",
+      "lugar": "SUBE A ESTACIÓN"
+    },
+    {
+      "estacion": "IZTACALCO",
+      "direccion": "EXTERIOR, SALIDA OTE. LADO ANDÉN DIRECCIÓN GARIBALDI",
+      "lugar": "SUBE A ESTACIÓN"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "DIRECCIÓN CONSTITUCIÓN",
+      "lugar": "CALLE A ANTES DE TORNIQUETES"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "DIRECCIÓN GARIBALDI",
+      "lugar": "LIBRA TORNIQUETE (CALLE)"
+    },
+    {
+      "estacion": "OCEANÍA",
+      "direccion": "ANDÉN DIRECCIÓN BUENAVISTA",
+      "lugar": "SUBE A ANDÉN"
+    },
+    {
+      "estacion": "OCEANÍA",
+      "direccion": "ANDÉN DIRECCIÓN CD. AZTECA",
+      "lugar": "SUBE A ANDÉN"
+    },
+    {
+      "estacion": "COYUYA",
+      "direccion": "GARIBALDI",
+      "lugar": "SOBRE EL PUENTE PEATONAL"
+    },
+    {
+      "estacion": "COYUYA",
+      "direccion": "AMBAS DIRECCIONES",
+      "lugar": "ANTES DE TORNIQUETES, DETRÁS DE TAQUILLA"
+    },
+    {
+      "estacion": "COYUYA",
+      "direccion": "CONSTITUCIÓN DE 1917",
+      "lugar": "ANTES DE TORNIQUETES, DETRÁS DE TAQUILLA"
+    }
+  ],
+  
+
+"9":[
+    {
+      "estacion": "CENTRO MEDICO",
+      "direccion": "ANDÉN DIRECCIÓN PANTITLÁN",
+      "lugar": "DESPUÉS DE TORNIQUETES BAJA A ANDÉN"
+    },
+    {
+      "estacion": "VELODROMO",
+      "direccion": "ANDÉN DIRECCIÓN TACUBAYA",
+      "lugar": "EXTERIOR SUBE A ANDÉN"
+    },
+    {
+      "estacion": "CIUDAD DEPORTIVA",
+      "direccion": "ANDÉN DIRECCIÓN PANTITLÁN",
+      "lugar": "CALLE A ANTES DE TORNIQUETES"
+    },
+    {
+      "estacion": "CIUDAD DEPORTIVA",
+      "direccion": "PIE DE ANDÉN DIRECCIÓN TACUBAYA",
+      "lugar": "PUENTE PARA CRUCE"
+    },
+    {
+      "estacion": "CIUDAD DEPORTIVA",
+      "direccion": "CABECERA DE ANDÉN DIRECCIÓN PANTITLÁN",
+      "lugar": "PUENTE PARA CRUCE"
+    },
+    {
+      "estacion": "CENTRO MEDICO",
+      "direccion": "PANTITLÁN",
+      "lugar": "ANDÉN CENTRAL"
+    },
+    {
+      "estacion": "CENTRO MEDICO",
+      "direccion": "TACUBAYA",
+      "lugar": "ANDÉN CENTRAL"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "CONSTITUCIÓN DE 1917",
+      "lugar": "PASILLO DE CORRESPONDENCIA CERCA DESPUÉS DE TORNIQUETES, CERCA DE TAQUILLA"
+    },
+    {
+      "estacion": "CHABACANO",
+      "direccion": "GARIBALDI",
+      "lugar": "ANDÉN, SALIDA CON RAMPA"
+    }
+  ],
+  
+"12":[
+    {
+      "estacion": "ERMITA",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "ERMITA",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN"
+    },
+    {
+      "estacion": "ERMITA",
+      "direccion": "PASILLO TRANSBORDE",
+      "lugar": "MEZZANINE CORRESPONDENCIA L12/L2, INICIO DE TRANSBORDE"
+    },
+    {
+      "estacion": "ERMITA",
+      "direccion": "PASILLO TRANSBORDE",
+      "lugar": "MEZZANINE CORRESPONDENCIA L12/L2, INICIO DE TRANSBORDE"
+    },
+    {
+      "estacion": "ATLALILCO",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "ATLALILCO",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "NOPALERA",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "NOPALERA",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "OLIVOS",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "OLIVOS",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "TEZONCO",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "TEZONCO",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "PERIFÉRICO ORIENTE",
+      "direccion": "MIXCOAC",
+      "lugar": "NIVEL CALLE A MEZZANINE DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "PERIFÉRICO ORIENTE",
+      "direccion": "TLÁHUAC",
+      "lugar": "NIVEL CALLE A MEZZANINE DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "PERIFÉRICO ORIENTE",
+      "direccion": "ANDÉN MEDIO",
+      "lugar": "NIVEL MEZZANINE A ANDÉN CENTRAL"
+    },
+    {
+      "estacion": "CALLE 11",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "CALLE 11",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "LOMAS ESTRELLA",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "LOMAS ESTRELLA",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "SAN ANDRÉS TOMATLÁN",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "SAN ANDRÉS TOMATLÁN",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "CULHUACÁN",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "CULHUACÁN",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "MEXICALTZINGO",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "MEXICALTZINGO",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "MEXICALTZINGO",
+      "direccion": "CALLE",
+      "lugar": "NIVEL CALLE A MEZZANINE"
+    },
+    {
+      "estacion": "EJE CENTRAL",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "EJE CENTRAL",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "EJE CENTRAL",
+      "direccion": "CALLE",
+      "lugar": "NIVEL CALLE A MEZZANINE"
+    },
+    {
+      "estacion": "PARQUE DE LOS VENADOS",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN DIRECCIÓN MIXCOAC"
+    },
+    {
+      "estacion": "PARQUE DE LOS VENADOS",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN DIRECCIÓN TLÁHUAC"
+    },
+    {
+      "estacion": "PARQUE DE LOS VENADOS",
+      "direccion": "CALLE",
+      "lugar": "NIVEL CALLE A MEZZANINE"
+    },
+    {
+      "estacion": "MIXCOAC",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "MIXCOAC",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "MIXCOAC",
+      "direccion": "SALIDA",
+      "lugar": "MEZZANINE-CALLE"
+    },
+    {
+      "estacion": "INSURGENTES SUR",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "INSURGENTES SUR",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "INSURGENTES SUR",
+      "direccion": "SALIDA",
+      "lugar": "MEZZANINE-CALLE"
+    },
+    {
+      "estacion": "HOSPITAL 20 DE NOVIEMBRE",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "HOSPITAL 20 DE NOVIEMBRE",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "HOSPITAL 20 DE NOVIEMBRE",
+      "direccion": "SALIDA",
+      "lugar": "MEZZANINE-CALLE"
+    },
+    {
+      "estacion": "ZAPATA",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "ZAPATA",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "ZAPATA",
+      "direccion": "SALIDA",
+      "lugar": "MEZZANINE-CALLE"
+    },
+    {
+      "estacion": "ZAPOTITLÁN",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "ZAPOTITLÁN",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "TLALTENCO",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "TLALTENCO",
+      "direccion": "TLÁHUAC",
+      "lugar": "MEZZANINE-CALLE"
+    },
+    {
+      "estacion": "TLÁHUAC",
+      "direccion": "MIXCOAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "TLÁHUAC",
+      "direccion": "TLÁHUAC",
+      "lugar": "ANDÉN"
+    },
+    {
+      "estacion": "TLÁHUAC",
+      "direccion": "SALIDA",
+      "lugar": "MEZZANINE-CALLE"
+    },
+    {
+      "estacion": "TLÁHUAC",
+      "direccion": "SALIDA",
+      "lugar": "MEZZANINE-CALLE"
+    }
+  ], 
+"A":[
+    {"estacion": "PANTITLAN", "direccion": "PANTITLAN", "lugar": "ANDEN ESTACION CORRESPONDENCIA L-A A L-1"},
+    {"estacion": "PANTITLAN", "direccion": "LA PAZ", "lugar": "ANDEN CENTRAL"},
+    {"estacion": "TEPALCATES", "direccion": "AMBAS DIRECCIONES", "lugar": "ANDEN MEDIO"},
+    {"estacion": "SANTA MARTA", "direccion": "LA PAZ", "lugar": "PARADERO"},
+    {"estacion": "SANTA MARTA", "direccion": "LA PAZ", "lugar": "PARADERO"},
+    {"estacion": "LA PAZ", "direccion": "LA PAZ", "lugar": "ANDEN"},
+    {"estacion": "LA PAZ", "direccion": "LA PAZ", "lugar": "SALIDA"},
+    {"estacion": "LA PAZ", "direccion": "LA PAZ", "lugar": "PARADERO"}
+  ],
+  
+"B":[
+    {"estacion": "SAN LÁZARO", "direccion": "ANDÉN DIRECCIÓN CIUDAD AZTECA", "lugar": "PUENTE PARA CRUCE"},
+    {"estacion": "SAN LÁZARO", "direccion": "ANDÉN DIRECCIÓN BUENAVISTA", "lugar": "PUENTE PARA CRUCE"},
+    {"estacion": "CIUDAD AZTECA", "direccion": "AMBAS DIRECCIONES", "lugar": "ANDEN CENTRAL"},
+    {"estacion": "CIUDAD AZTECA", "direccion": "AMBAS DIRECCIONES", "lugar": "ANDEN CENTRAL"},
+    {"estacion": "PLAZA ARAGÓN", "direccion": "AMBAS DIRECCIONES", "lugar": "ANDEN CENTRAL"},
+    {"estacion": "PLAZA ARAGÓN", "direccion": "AMBAS DIRECCIONES", "lugar": "ANDEN CENTRAL"},
+    {"estacion": "ECATEPEC", "direccion": "CIUDAD AZTECA", "lugar": "ANTES DE TORNIQUETES"},
+    {"estacion": "ECATEPEC", "direccion": "BUENAVISTA", "lugar": "ANTES DE TORNIQUETES"},
+    {"estacion": "ECATEPEC", "direccion": "NIVEL CALLE", "lugar": "PUENTE PEATONAL"},
+    {"estacion": "VILLA DE ARAGÓN", "direccion": "CIUDAD AZTECA", "lugar": "DESPUES DE TORNIQUETES"},
+    {"estacion": "VILLA DE ARAGÓN", "direccion": "BUENAVISTA", "lugar": "DESPUES DE TORNIQUETES, FINAL DEL PUENTE PEATONAL"},
+    {"estacion": "VILLA DE ARAGÓN", "direccion": "ANDEN CENTRAL", "lugar": "ANDEN CENTRAL"},
+    {"estacion": "SAN LÁZARO", "direccion": "CIUDAD AZTECA", "lugar": "PASILLO PEATONAL, ANTES DE TORNIQUETES"},
+    {"estacion": "SAN LÁZARO", "direccion": "BUENAVISTA", "lugar": "PASILLO PEATONAL, ANTES DE TORNIQUETES"},
+    {"estacion": "BUENAVISTA", "direccion": "CUIDAD AZTECA", "lugar": "PEGADO A TAQUILLA"},
+    {"estacion": "BUENAVISTA", "direccion": "BUENAVISTA", "lugar": "PASILLO SALIDA A LA BIBLIOTECA VASCONCELOS"},
+    {"estacion": "LINDAVISTA", "direccion": "CIUDAD AZTECA", "lugar": "ANDEN"},
+    {"estacion": "LINDAVISTA", "direccion": "BUENAVISTA", "lugar": "ANDEN"}
+  ]
+}  
