@@ -16,11 +16,7 @@ const Layout = ({titulo, children}) => {
           </header>
       
             {children}
-<<<<<<< HEAD
-      <script src="http://maps.google.com/maps/api/js?key=&sensor=false&language=es&libraries=places"></script>
-=======
-      <script src="http://maps.google.com/maps/api/js?key=AIzaSyAlaWMi6VabGwQntHVKxNngi3HtQtp2AiQ&sensor=false&language=es"></script>
->>>>>>> 702e906712a463b05f6ba1c487b0db47d766aefc
+      <script src="http://maps.google.com/maps/api/js?key=AIzaSyAlaWMi6VabGwQntHVKxNngi3HtQtp2AiQ&sensor=false&language=es&libraries=places"></script>
     </>
   )
 }

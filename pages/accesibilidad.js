@@ -18,7 +18,7 @@ const accesibilidad = () => {
     <Layout titulo={"Accesibilidad"}>
         <main className="bg-[url('/imgs/fondoAcces.png')] min-h-screen">
         <section className=" bg-black bg-opacity-20 backdrop-blur-sm min-h-screen pt-14 pb-10  flex flex-col items-center ">
-          <h1 className="font-bold text-5xl text-white mt-16 mb-9">Accesibilidad</h1>
+          <h1 className="sombra_texto font-bold text-5xl text-white mt-40 mb-6">Accesibilidad</h1>
           <form className="self-center">
           <p className="sombra_texto text-white text-3xl">Filtrar elvadores por linea</p>
           <select 

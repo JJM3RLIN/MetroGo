@@ -84,9 +84,9 @@ const type = "point_of_interest";
     <Layout titulo="Turismo">
       <main className="bg-[url('/imgs/turismo_fondo.jpg')] bg-center  min-h-screen">
         <section className=" bg-black bg-opacity-20 backdrop-blur-sm pt-14 px-4 flex flex-col items-center min-h-screen">
-          <h1 className="font-bold text-5xl text-white mt-16 mb-9">Lugares Turisticos</h1>
+          <h1 className="sombra_texto font-bold text-5xl text-white mt-40 mb-6">Lugares Turisticos</h1>
           <form className="self-center flex flex-col gap-3 mb-5" onSubmit={handleSubmit}>
-          <p className="text-white text-3xl text-center">Filtrar estaciones turisticas por linea</p>
+          <p className="text-white text-4xl font-semibold text-center sombra_texto">Filtrar estaciones turisticas por linea</p>
           <select className="cursor-pointer bg-gray-200 px-6 py-2 outline-none border rounded-xl text-2xl border-amber-300 my-9"  onChange={handleLinea}>
             <option value="">---Selecciona una linea---</option>
             {
@@ -118,7 +118,7 @@ const type = "point_of_interest";
         </div>
         
         </section>
-        <div id='map' className='h-96 mt-3'></div>
+        <div id='map' className={`${puntos.length>0 ?'h-96 mt-3' : ''}`}></div>
         </main> 
     </Layout>
   )
