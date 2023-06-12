@@ -5,12 +5,14 @@ const accesibilidad = () => {
     <Layout titulo={"Accesibilidad"}>
         <main className="bg-[url('/imgs/fondoAcces.png')] h-screen">
         <section className=" bg-black bg-opacity-20 backdrop-blur-sm h-screen pt-14  flex flex-col items-center ">
-          <h1 className="font-bold text-5xl text-white ">Accesibilidad</h1>
+          <h1 className="mt-36 text-center sombra_texto font-bold text-5xl text-white mb-6">Accesibilidad</h1>
           <form className="self-center">
-          <p className="sombra_texto text-white text-3xl">Filtrar elvadores por linea</p>
-          <select>
+          <p className="sombra_texto text-white text-3xl mb-6">Filtrar elvadores por linea</p>
+          <div className="flex justify-center">
+          <select className="mx-auto block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-orange-500">
             <option>Selecciona una linea</option>
           </select>
+          </div>
           </form>
         </section>
         </main>
