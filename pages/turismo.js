@@ -17,9 +17,6 @@ const turismo = () => {
     const valor_estacion = estacion.split("/")
     const latitud = Number(valor_estacion[1])
     const longitud = Number(valor_estacion[2])
-    console.log(valor_estacion)
-    console.log(estacion)
-const apiKey = 'AIzaSyAlaWMi6VabGwQntHVKxNngi3HtQtp2AiQ';
 
 // Parámetros de búsqueda
 const query = ` atraccion turistica cerca del metro ${valor_estacion[0]}`;
@@ -81,7 +78,7 @@ const type = "point_of_interest";
     
       }
   return (
-    <Layout titulo="Turismo">
+    <Layout titulo="Turismo" tab={4}>
       <main className="bg-[url('/imgs/turismo_fondo.jpg')] bg-center  min-h-screen">
         <section className=" bg-black bg-opacity-20 backdrop-blur-sm pt-14 px-4 flex flex-col items-center min-h-screen">
           <h1 className="sombra_texto font-bold text-5xl text-white mt-40 mb-6">Lugares Turisticos</h1>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const mapa = () => {
   return (
-    <Layout titulo={"Mapa"}>
+    <Layout titulo={"Mapa"} tab={1}>
         <main className='flex flex-col items-center mt-36'>
         <h1 className='sombra_texto font-bold text-5xl text-white mt-9 mb-6'>Mapa de la red</h1>
 

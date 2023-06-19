@@ -15,7 +15,7 @@ const accesibilidad = () => {
    setElev(lineaElevador)
   }
   return (
-    <Layout titulo={"Accesibilidad"}>
+    <Layout titulo={"Accesibilidad"} tab={3}>
         <main className="bg-[url('/imgs/fondoAcces.png')] min-h-screen">
         <section className=" bg-black bg-opacity-20 backdrop-blur-sm min-h-screen pt-14 pb-10  flex flex-col items-center ">
           <h1 className="sombra_texto font-bold text-5xl text-white mt-40 mb-6">Accesibilidad</h1>

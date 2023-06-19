@@ -14,7 +14,7 @@ const informacion = () => {
     });
   }, []);
   return (
-    <Layout titulo={"Información"}>
+    <Layout titulo={"Información"} tab={6}>
       <main className="bg-[url('/imgs/fondoInfo2.jpg')] h-screen bg-no-repeat bg-cover bg-right">
          <div className="bg-black bg-opacity-20 h-screen backdrop-blur-sm flex flex-col items-center text-white  py-10">
 

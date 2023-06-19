@@ -4,19 +4,24 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <Layout titulo={"Inicio"}>
+    <Layout titulo={"Inicio"} tab={0}>
      <main className='bg-slate-50'>
      <section className="h-full bg-center bg-no-repeat bg-cover flex items-center justify-center">
             <div className='flex flex-col items-center justify-center bg-black w-full top-0 bg-opacity-5 absolute h-full'>
-              <h1 className='text-white font-bold text-6xl my-4 sombra_texto uppercase separacion_letras'>Metro Go!</h1>
-              <p className='text-white text-3xl sombra_texto'>La aplicación que todo usuario del metro necesita</p>
+              <h1 className='text-transparent font-bold text-8xl my-4  uppercase separacion_letras bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text'>Metro Go!</h1>
+              <p className='text-transparent text-3xl font-semibold bg-gradient-to-r from-orange-400 to-amber-300  bg-clip-text'>La aplicación que todo usuario del metro necesita</p>
             </div>
             <video autoPlay muted loop className='w-full'>
               <source src='/video/video_header.mp4' type='video/mp4' />
             </video>
      </section>
 
+     {
+      //2 columnas para info
+     }
+
     <section className='grid grid-cols-2 h-[40rem]'>
+
     <section className="bg-[url('/imgs/rutasFondo.jpg')] h-full bg-contain bg-no-repeat bg-fixed flex items-center justify-center">
      <div className='flex flex-col items-center justify-end bg-black w-full bg-opacity-40 hover:bg-opacity-50 transition-all ease-in-outn duration-500 h-full pb-14'>
      <h1 className='text-slate-100 font-bold text-4xl mb-4 sombra_texto'>Crea tus rutas</h1>
@@ -30,7 +35,7 @@ export default function Home() {
 
      <section className="bg-[url('/imgs/fondoAprender.webp')] h-full  bg-fixed bg-cover bg-no-repeat flex items-center justify-center w-full">
      <div className='flex flex-col items-center justify-end bg-black w-full bg-opacity-30 hover:bg-opacity-25 transition-all ease-in-outn duration-500  h-full pb-14'>
-     <h1 className='text-slate-100 font-bold text-4xl mb-4 sombra_texto'>Aprende a utilizar el metro</h1>
+     <h2 className='text-slate-100 font-bold text-4xl mb-4 sombra_texto'>Aprende a utilizar el metro</h2>
      <Link href="aprendizaje">
       <button type='button' className='bg-amber-500 px-3 py-1 rounded-lg shadow-lg shadow-neutral-800'>
       <p className='text-white text-lg font-bold'>Aprender</p>
@@ -40,9 +45,27 @@ export default function Home() {
      </section>
 
     </section>
+    {
+      //Gráfico
+    }
+    <section className='w-full bg-[url("/imgs/metro_grafico.jpg")] bg-no-repeat bg-right-bottom bg-fixed bg-cover h-80'>
+      <div className='w-full bg-black bg-opacity-20 h-full flex items-center flex-col justify-center'>
+      <h2 className='text-white font-bold text-5xl sombra_texto mb-9'>¿Estas perdido?, Busca las estaciones cercanas a ti</h2>
+      <Link href='buscarEstacion'>
+      <button type='button' className='bg-amber-500  hover:bg-amber-600 px-10 py-1 rounded-lg shadow-lg shadow-neutral-800'>
+      <p className='text-white text-xl font-bold'>Buscar</p>
+      </button>
+      </Link>
+      </div>
+    </section>
+
+    {
+      //Cards
+    }
 
     <section className='m-5 px-3'>
-      <h1 className='font-bold text-4xl text-center m-9'>Una app para aprender, conocer y saber transbordar en el metro de la CDMX</h1>
+
+      <h2 className='font-bold text-4xl text-center m-9'>Una app para aprender, conocer y saber transbordar en el metro de la CDMX</h2>
       <div className='grid grid-cols-3 mt-5'>
         <div className='w-auto flex flex-col items-center'>
         <Link href="https://www.metro.cdmx.gob.mx/boletos-de-aniversario" target='_blank'>
@@ -88,8 +111,8 @@ export default function Home() {
       </div>
     </section>
      </main>
-     <footer>
-      <h1>derechos reservados</h1>
+     <footer className='flex flex-col items-center py-10 bg-gradient-to-r from-orange-600 to-amber-500'>
+      <h1 className='text-2xl text-white sombra_texto font-semibold'>Derechos reservados</h1>
       <p>a todo nuestro equipo</p>
      </footer>
     </Layout>

@@ -56,12 +56,12 @@ const buscarRuta = () => {
    padre.appendChild(contenedor)
   }
   return (
-    <Layout titulo="Busca una ruta">
+    <Layout titulo="Busca una ruta" tab={2}>
       <main className="grid grid-cols-2 place-content-center">
         
         <div className="bg-[url('/imgs/fondoRutas.png')] bg-no-repeat h-screen bg-cover bg-right"></div>
         <section className="mt-6 text-center flex flex-col items-center bg-slate-200">
-          <h1 className="sombra_texto font-bold text-5xl text-white mt-40 mb-6">Rutas</h1>
+          <h1 className="font-bold text-5xl mt-40 mb-6 text-transparent bg-gradient-to-r from-orange-600 to-amber-500  bg-clip-text">Rutas</h1>
          <div id="inicio" className="cursor-pointer bg-slate-50 px-6 py-2 outline-none border rounded-xl text-2xl border-amber-300 my-9"  onClick={desplegarLista}>
           <div id="lista_inicio" className="max-h-48 overflow-y-scroll">
                <p className="default">Selecciona la línea en donde se encuentra la estación</p>

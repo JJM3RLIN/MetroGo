@@ -17,6 +17,7 @@ font-family: 'Barlow', sans-serif !important;
 }
 #lista_inicio > p:hover:not(.default), #lista_final> p:hover:not(.default){
    background-color: rgb(103, 107, 107);
+   border-radius: 5rem;
 }
 .contenedor-estacion{
     position: absolute;
@@ -25,10 +26,20 @@ font-family: 'Barlow', sans-serif !important;
     width: fit-content;
     max-height: 30rem;
     overflow-y: scroll;
-    background-color: #D9D9D9;
+    background-image: linear-gradient(to right,  #cf4900,#b94100 );
     border-radius: 10px;
-    padding:  10px;
+    padding: 10px 15px;
+    color: #ffffff;
 }
 .contenedor-estacion p:hover{
-  background-color: #bbbaba;
+  background-color: #e85e14;
+  border-radius: 5rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.scrollbar-hidden{
+    scrollbar-width: none;
+}
+.activo-link,.activo-link_hover:hover{
+     filter: invert(50%) sepia(50%) saturate(700%) hue-rotate(350deg)
 }
