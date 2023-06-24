@@ -17,7 +17,6 @@ font-family: 'Barlow', sans-serif !important;
 }
 #lista_inicio > p:hover:not(.default), #lista_final> p:hover:not(.default){
    background-color: rgb(103, 107, 107);
-   border-radius: 5rem;
 }
 .contenedor-estacion{
     position: absolute;

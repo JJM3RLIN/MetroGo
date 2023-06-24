@@ -76,13 +76,14 @@ const buscarEstacion = () => {
   return (
     <Layout titulo='Estaciones cercanas'>
       <main className="h-screen flex">
-        <div className="w-2/5 flex flex-col items-center">
+        <div className="w-2/5 flex flex-col items-center overflow-auto md:overflow-y-scroll ">
         <h1 className="mt-40 mb-10 font-bold text-4xl text-transparent bg-gradient-to-r from-orange-600 to-amber-500  bg-clip-text">Estaciones cercanas a ti</h1>
         {
           estaCercanas.map((es, i)=>{
             const index = estaciones.findIndex(esta=>esta.nombre==es)
             if(index != -1)
             return (
+              <div className="">
               <div className="mb-3 flex items-center flex-col" key={i} >
                 <Image 
                 src={estaciones[index].img}
@@ -91,6 +92,7 @@ const buscarEstacion = () => {
                 height={105}
                 />
                 <p className="text-center font-medium text-xl ">{es}</p>
+              </div>
               </div>
             )
             else return

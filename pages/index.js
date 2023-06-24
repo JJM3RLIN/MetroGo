@@ -112,8 +112,60 @@ export default function Home() {
     </section>
      </main>
      <footer className='flex flex-col items-center py-10 bg-gradient-to-r from-orange-600 to-amber-500'>
-      <h1 className='text-2xl text-white sombra_texto font-semibold'>Derechos reservados</h1>
-      <p>a todo nuestro equipo</p>
+      <h1 className='text-4xl text-white sombra_texto font-semibold'>MetroGO!</h1>
+      <div className='m-28 text-white justify-center items-center text-center mt-9 mb-9'>
+      <p>© 2023 MetroGO! Todos los derechos reservados. Prohibida la reproducción total o parcial de cualquier contenido de esta página web sin autorización expresa por escrito de MetroGO!. Todas las marcas comerciales, logotipos y nombres de productos mencionados son propiedad de sus respectivos propietarios.</p>
+      
+      <div className='flex justify-center gap-10 items-center mt-10 '>
+      <Link href="https://www.facebook.com/MetroCDMX?mibextid=ZbWKwL" target='_blank'>
+      <div className="rounded-2xl hover:opacity-70 transition-all ease-in-outn duration-500">
+          <Image 
+          src="/imgs/facebook.png" 
+          alt='icono-maquinas' 
+          width={40} height={40} 
+          className=''
+          />
+        </div>
+      </Link>
+
+      <Link href="https://twitter.com/MetroCDMX?t=DH6_0CZYkKSO6vxdnZKyVA&s=09" target='_blank'>
+      <div className="rounded-2xl hover:opacity-70 transition-all ease-in-outn duration-500">
+          <Image 
+          src="/imgs/twitter.png" 
+          alt='icono-maquinas' 
+          width={40} height={40} 
+          className=''
+          />
+        </div>
+      </Link>
+
+      <Link href="https://instagram.com/metrocdmx?igshid=YmM0MjE2YWMzOA==" target='_blank'>
+      <div className="rounded-2xl hover:opacity-70 transition-all ease-in-outn duration-500">
+          <Image 
+          src="/imgs/insta.png" 
+          alt='icono-maquinas' 
+          width={40} height={40} 
+          className=''
+          />
+        </div>
+      </Link>
+
+      <Link href="https://youtube.com/@Metro_CDMX" target='_blank'>
+      <div className="rounded-2xl hover:opacity-70 transition-all ease-in-outn duration-500">
+          <Image 
+          src="/imgs/youtube.png" 
+          alt='icono-maquinas' 
+          width={40} height={40} 
+          className=''
+          />
+        </div>
+      </Link>
+
+
+      </div>
+
+
+      </div>
      </footer>
     </Layout>
   )

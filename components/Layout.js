@@ -16,7 +16,7 @@ const Layout = ({titulo, tab ,children}) => {
           </header>
       
             {children}
-      <script src="http://maps.google.com/maps/api/js?key=Q&sensor=false&language=es&libraries=places"></script>
+      <script src="key del mapa"></script>
     </>
   )
 }

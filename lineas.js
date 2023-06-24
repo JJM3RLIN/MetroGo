@@ -220,7 +220,7 @@ export const estaciones = [
   {"nombre":"San Lázaro","latitud":19.4303,"longitud":-99.114799,"img":"/imgs/imgs_lineas/Linea1/sanlazaro.png"},
   {"nombre":"Moctezuma","latitud":19.4272,"longitud":-99.110298,"img":"/imgs/imgs_lineas/Linea1/moctezuma.png"},
   {"nombre":"Balbuena","latitud":19.423,"longitud":-99.102501,"img":"/imgs/imgs_lineas/Linea1/balbuena.png"},
-  {"nombre":"Boulevard Puerto Aéreo","latitud":19.419701,"longitud":-99.096001,"img":"/imgs/imgs_lineas/Linea1/boulevardptoaereo.png"},
+  {"nombre":"Boulevard Puerto Aéreo","latitud":19.419701,"longitud":-99.096001,"img":"/imgs/imgs_lineas/Linea1/boulevarptoaereo.png"},
   {"nombre":"Gómez Farías","latitud":19.4158,"longitud":-99.090302,"img":"/imgs/imgs_lineas/Linea1/gomezfarias.png"},
   {"nombre":"Zaragoza","latitud":19.4123,"longitud":-99.082397,"img":"/imgs/imgs_lineas/Linea1/zaragoza.png"},
   {"nombre":"Pantitlán","latitud":19.4154,"longitud":-99.072197,"img":"/imgs/imgs_lineas/Linea5/13. Pantitlán.png"},

@@ -148,7 +148,7 @@ const ruta = () => {
           
           <section>
           <h2 className="font-bold text-3xl text-center mb-3 my-5 text-transparent bg-gradient-to-r from-orange-600 to-amber-500  bg-clip-text">Estaciones por las que vas a pasar</h2>
-          <section className="flex flex-row gap-3  overflow-x-scroll scrollbar-hidden w-[50rem] snap-x self-center">
+          <section className="flex flex-row gap-3  overflow-x-scroll scrollbar-hidden w-[40rem] snap-x self-center">
           {
             estacionesPaso.map((e,i)=>{
               const indexImagen = estaciones.findIndex(es=>es.nombre==e)
